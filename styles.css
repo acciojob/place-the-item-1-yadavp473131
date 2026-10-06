@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+.flexbox{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#box-1{
+	background-color: red;
+}
+#box-2{
+	background-color: blue;
+}
+#box-3{
+	background-color: green;
+}
+.box{
+	width: 30px;
+	height: 30px;
+}
+.flexwrap{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

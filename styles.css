@@ -1,10 +1,10 @@
 
 /* Your CSS Code here. */
-.flexbox{
+/* .flexbox{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
-}
+} */
 #box-1{
 	background-color: red;
 }
@@ -14,11 +14,12 @@
 #box-3{
 	background-color: green;
 }
-.box{
+.item{
+	background-color: green;
 	width: 30px;
 	height: 30px;
 }
-.flexwrap{
+.holder{
 	display:flex;
 	flex-direction:row;
 	flex-wrap: wrap;
